@@ -12,7 +12,7 @@
 * Open portainer UI, go to containers tab and click on port 3000 of frontend container, this will open an application on new page. Application will also be accessible localhost:3000
 * In portainer UI, go to networks tab and find the name of network.
 * Mongo express is one of the tool for visualization of mongodb. To install it locally , type following commands in your terminal
-  * sudo docker run --network <name-of-the-network-here> --link mongodb:mongo -p 8081:8081 mongo-express
+  * sudo docker run --network [name-of-the-network-here] --link mongodb:mongo -p 8081:8081 mongo-express
   
 # Generate Fake Sensor Data
 
